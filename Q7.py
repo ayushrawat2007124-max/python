@@ -1,0 +1,5 @@
+p=float(input("enter the principal value :"))
+r=float(input("enter the rate value :"))
+t=float(input("enter the time value :"))
+SI=((p*r*t)/100)
+print(SI)
