@@ -1,0 +1,9 @@
+n=int(input("enter the number"))
+n2=int(input("enter the number"))
+n3=int(input("enter the number"))
+if(n>n2 and n>n3):
+    print("greatest number is:",n)
+elif(n2>n3 and n2>n):
+    print("greatest number is:",n2)
+elif(n3>n and n3>n2):
+    print("greatest number is:",n3)
